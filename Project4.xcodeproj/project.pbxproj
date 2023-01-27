@@ -14,6 +14,7 @@
 		D755FA832983D38900444001 /* Project4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D755FA822983D38900444001 /* Project4Tests.swift */; };
 		D755FA8D2983D38900444001 /* Project4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D755FA8C2983D38900444001 /* Project4UITests.swift */; };
 		D755FA8F2983D38900444001 /* Project4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D755FA8E2983D38900444001 /* Project4UITestsLaunchTests.swift */; };
+		D755FA9C2983FBD500444001 /* sleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D755FA9B2983FBD500444001 /* sleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D755FA882983D38900444001 /* Project4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D755FA8C2983D38900444001 /* Project4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4UITests.swift; sourceTree = "<group>"; };
 		D755FA8E2983D38900444001 /* Project4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D755FA9B2983FBD500444001 /* sleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D755FA712983D38700444001 /* Project4App.swift */,
 				D755FA732983D38700444001 /* ContentView.swift */,
+				D755FA9B2983FBD500444001 /* sleepCalculator.mlmodel */,
 				D755FA752983D38800444001 /* Assets.xcassets */,
 				D755FA772983D38800444001 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D755FA742983D38700444001 /* ContentView.swift in Sources */,
+				D755FA9C2983FBD500444001 /* sleepCalculator.mlmodel in Sources */,
 				D755FA722983D38700444001 /* Project4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
